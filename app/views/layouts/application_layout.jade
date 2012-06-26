@@ -1,0 +1,15 @@
+doctype 5
+html(lang="en")
+  head
+    title= title
+    != stylesheet_link_tag('bootstrap', 'style', 'bootstrap-responsive')
+    != javascript_include_tag('http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js', 'bootstrap', 'rails', 'application')
+  body
+    .navbar
+      .navbar-inner
+        .container
+          a.brand(href="#")
+            | Project name
+          a.brand(href="#")
+            | What is The Call
+
