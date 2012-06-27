@@ -1,15 +1,104 @@
 extends ../layouts/application_layout
 
 block append content
-  | eeeeeeeeeeeee
-  .a
-    | aaaaaaaaaaaaaa
+  header.container
+    img#main_image(src='images/ptc1.png')
+
+    h1 
+      | Ruby on Rails Developer
+    h4 Cocreate a game to mobilize communities all across the world.
+    h3 Live 3 months in Parati, Brazil
+
+  section#what_is_the_call
+    .container
+      h2 What is Play The Call?
+      p
+        | Play The Call 
+        | is a game to awaken the children of the world and unlock their inborn 
+        span.chunk
+          | Super-Powers.
+      p Play The Call will be presented as an online platform, using and connecting free online applications including Facebook, Twitter, Google+ and Ning to foster the collaboration between the players. It will be played in the real world, integrating physical and digital space to connectand challenge people and communities around the world to play with each other, and performreal tasks that transform our world.
 
 
+  section#main_two_requirements
+    .container
+      h2 The Main Two requirements
+      p 
+        i.icon-ok-circle
+        | You are exceptional at what you do.
+      p 
+        i.icon-ok-circle
+        | You are a purpose driven individual committed to create a positive impact in the world.
 
-append content2
-  | eeeeeeeeeeeee
-  .a
-    | aaaaaaaaaaaaaa
+  section#three_months_in_parati
+    .container.blue
+      h2 Live 3 months from Parati, Brazil
+      p This is a long-time position, starting now. Besides, we would like to invite you to live 3 months to live in Parati, Brazil. All you need is included: accommodation, breakfast, lunch, dinner and a paradise to explore at your footsteps.
+      .row
+        .img_border
+          img(src='images/parati.jpeg')
 
-|eeeeeeeeeerrrrrr
+  section#main_location
+    .container
+      h2 Main Location
+      p The stay in Parati is for 3 months. The rest of the time you can choose to live in your own state (within the US) or country. However, if you have permission to work in the US we encourage you to work from Boulder, Colorado, where you will be collaborating with 
+      != link_to('@raulsann', 'http://twitter.com/raulsann')
+      | , product manager of the game. You will have the chance to live at 
+      != link_to('the Village', 'http://thevillage.us')
+      | , a cohousing space for purpose driven individuals that enjoy getting things done!
+
+  section#compensation
+    .container
+      h2 Compensation
+      p This is a full time compensated job. Besides working to create a positive impact in the world through games and the possibility to live in Parati for 3 months, you will receive a great salary depending on your experience and the things you have done in the past.
+
+  section#openings
+    .container
+      h2 Openings
+      h3 Lead Ruby on Rails Developer
+
+      p
+        i.icon-ok-circle
+        | You are an experienced web hacker and have built web applications you are proud to tell us about. 
+      p
+        i.icon-ok-circle
+        | You might have studied Computer Engineering or Computer Science OR you have been coding software for a good amount of years. 
+      p
+        i.icon-ok-circle
+        | You have experience coding on Ruby on Rails, love the web and you're interested in everything from CSS to databases.
+      p
+        i.icon-ok-circle
+        | You have experience coding on Javascript and jQuery. 
+      p
+        i.icon-ok-circle
+        | CoffeeScript, Backbone.js, HAML and SCSS are a plus.
+
+      h3 Ruby on Rails Developer
+      p
+        i.icon-ok-circle
+        | You are a web hacker and can show us some web projects you have done. Even if they are the ones you did at university.
+      p
+        i.icon-ok-circle
+        | You might have studied Computer Engineering or Computer Science OR you have been coding software for a good amount of years. 
+      p
+        i.icon-ok-circle
+        | You have used a popular web framework before, like Ruby on Rails, Sinatra or Django. 
+      p
+        i.icon-ok-circle
+        | You love the web and you're interested in everything from CSS to databases.
+      p
+        i.icon-ok-circle
+        | You have used Javascript and jQuery. 
+      p
+        i.icon-ok-circle
+        | CoffeeScript, Backbone.js, HAML and SCSS are a plus.
+
+      h3 Both openings require:
+      p
+        i.icon-ok-circle
+        | You are proactive and at the same time you enjoy collaborating. We are looking for people that are their own cheerleaders and enjoys adding value to the ones around them.
+      p
+        i.icon-ok-circle
+        | You are smart, curious, and enjoy getting things done.
+
+

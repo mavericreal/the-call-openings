@@ -2,20 +2,20 @@ doctype 5
 html(lang="en")
   head
     title= title
-    != stylesheet_link_tag('bootstrap', 'style', 'bootstrap-responsive')
+    != stylesheet_link_tag('bootstrap.min', 'MyFontsWebfontsKit', 'style', 'bootstrap-responsive')
     != javascript_include_tag('http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js', 'bootstrap', 'rails', 'application')
   body
-    .navbar
-      .navbar-inner
-        .container
-          ul.nav
-            li.active
-              a.brand(href="#")
-                | home
-          ul.nav
-            li.active
-              a(href="#")
-                | What is The Call
+    //- .navbar.navbar-fixed-top
+    //-   .navbar-inner
+    //-     .container
+    //-       ul.nav
+    //-         li.active
+    //-           a.brand(href="#")
+    //-             | home
+    //-       ul.nav
+    //-         li
+    //-           a(href="#what_is_the_call")
+    //-             | What is The Call
 
     
     .container
@@ -33,9 +33,10 @@ html(lang="en")
           //-     </div>
           //- <% }; %>
 
-      block content
-        yield
-      hr
-      footer
-        p &copy; Company 2012
+    block content
+      yield
+    hr
+    footer
+      .container
+        img#main_image(src='images/ptc1.png')
 

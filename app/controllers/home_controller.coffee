@@ -3,5 +3,5 @@ before 'protect from forgery', ->
 
 
 action('index', ->
-	render({title:"Raul San Narciso", layout:false})
+	render({title:"The Call: Rails Developer", layout:false})
 )
