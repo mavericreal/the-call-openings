@@ -1,9 +1,11 @@
 header {
   text-align: center;
+  padding: 60px 0 85px;
 }
 section {
   padding: 100px 0;
   box-shadow: inset 0px 1px 3px #888;
+  box-shadow: 0px 3px 2px 0px #888;
   background-repeat: repeat;
   text-align: center;
   text-shadow: 1px 1px #E6E6E6;
@@ -16,9 +18,6 @@ body {
   font-size: 16px;
   line-height: 32px;
   background-image: url('/images/bg-gray-3.png');
-}
-header {
-  padding: 30px 0 60px;
 }
 h1 {
   margin: 44px 0;
@@ -48,6 +47,7 @@ h4 {
   text-shadow: 1px 2px #E6E6E6;
 }
 #what_is_the_call {
+  box-shadow: none;
   color: white;
   background-image: url('/images/bg-blue-3.png');
   text-shadow: 1px 1px #505050;
@@ -57,6 +57,17 @@ h4 {
 }
 #what_is_the_call .chuck {
   font-size: 17px;
+}
+#main_two_requirements {
+  color: white;
+  text-shadow: 1px 1px #505050;
+  background-image: url('/images/bg-blue-5.png');
+}
+#main_two_requirements .row {
+  margin-top: 30px;
+}
+#main_two_requirements h2 {
+  text-shadow: 1px 2px #505050;
 }
 #main_two_requirements p {
   text-align: left;
@@ -91,6 +102,36 @@ h4 {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   width: 380px;
+}
+#main_location {
+  color: white;
+  text-shadow: 1px 1px #505050;
+  background-image: url('/images/bg-green-2.png');
+}
+#main_location h2 {
+  text-shadow: 1px 2px #505050;
+}
+#the_team {
+  color: white;
+  text-shadow: 1px 1px #505050;
+  background-image: url('/images/bg-purple-5.png');
+}
+#the_team .row {
+  margin-top: 30px;
+}
+#the_team h2 {
+  text-shadow: 1px 2px #505050;
+}
+#the_team .img_border {
+  margin: auto;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  background: rgba(235, 235, 235, 0.35);
+  padding: 4px;
+  width: 560px;
+  height: 315px;
+  margin-top: 40px;
 }
 #compensation {
   color: white;
