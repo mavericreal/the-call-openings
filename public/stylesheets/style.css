@@ -97,6 +97,19 @@ h5 {
 #three_months_in_parati h2 {
   text-shadow: 1px 2px #505050;
 }
+#three_months_in_parati .row .span6:first-child .img_border {
+  float: right;
+}
+#three_months_in_parati .row .span6:nth-child(2) {
+  margin-top: 22px;
+}
+#three_months_in_parati .row .span6:nth-child(2) .img_border {
+  width: 420px;
+  float: left;
+}
+#three_months_in_parati .row .span6:nth-child(2) .img_border img {
+  width: 420px;
+}
 #three_months_in_parati .img_border {
   margin: auto;
   border-radius: 6px;
