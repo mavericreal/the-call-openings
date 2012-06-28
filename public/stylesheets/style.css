@@ -152,6 +152,16 @@ h4 {
 #openings i {
   margin-right: 15px;
 }
+#openings .btn {
+  padding: 17px 215px;
+  font-size: 32px;
+  margin-top: 70px;
+  padding: 17px 215px;
+  font-size: 32px;
+  margin-top: 70px;
+  font-family: Jura;
+  text-transform: uppercase;
+}
 .chunk {
   font-family: "Chunk";
 }
