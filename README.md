@@ -2,7 +2,7 @@ the-call-openings
 =================
 
 
-Simple Website created with [Railway.js](http://railwayjs.com/) for [Play The Call](http://playthecall.us)
+This is a simple Website created with [Railway.js](http://railwayjs.com/) for [Play The Call](http://playthecall.us)
 
 
 ## License
