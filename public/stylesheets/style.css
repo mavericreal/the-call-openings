@@ -165,6 +165,9 @@ h4 {
   font-family: Jura;
   text-transform: uppercase;
 }
+#openings .btn a {
+  color: white;
+}
 .chunk {
   font-family: "Chunk";
 }
